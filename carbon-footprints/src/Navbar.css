@@ -6,13 +6,10 @@
   height: 4rem; /* 16px * 4 = 64px */
   padding-left: 13%;
   padding-right: 13%;
-  height:15vh;
-  font-family:sans-serif;
-  font-weight:500;
-  line-height:1.7
-
-
-
+  height: 15vh;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 1.7;
 }
 
 /* Logo Section */
@@ -79,7 +76,8 @@
 .navbar-link.active {
   background-color: #d1fae5; /* emerald-100 */
   color: #047857; /* emerald-700 */
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .navbar-link:not(.active) {
@@ -89,4 +87,11 @@
 .navbar-link:not(.active):hover {
   background-color: #f3f4f6; /* gray-100 */
   color: #111827; /* gray-900 */
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 }
